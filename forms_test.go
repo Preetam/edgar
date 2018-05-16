@@ -22,6 +22,10 @@ func Test1(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
+
+	// for _, e := range idx.entries {
+	// 	fmt.Println(e, filenameToFormURL(e.FileName, "R2.htm"))
+	// }
 }
 
 func TestFilenameToFormURL(t *testing.T) {
@@ -29,27 +33,11 @@ func TestFilenameToFormURL(t *testing.T) {
 }
 
 func TestExtractRows(t *testing.T) {
-	b, err := ioutil.ReadFile("./income.htm")
+	b, err := ioutil.ReadFile("./balance_sheet.htm")
 	if err != nil {
 		t.Fatal(err)
 	}
 
-	// re := regexp.MustCompile(`<tr[^<]*>(\s+|.+)+?</tr[^<]*>`)
-	// tdRe := regexp.MustCompile(`<td[^<]*>(?:\s+|(.+))+?</td[^<]*>`)
-	// matches := re.FindAllString(string(b), -1)
-	// for i, match := range matches {
-	// 	fmt.Println("match", i)
-	// 	fmt.Println(match + "\n")
-	//
-	// 	tdMatches := tdRe.FindAllString(match, -1)
-	// 	for j, tdMatch := range tdMatches {
-	// 		fmt.Println("match", j)
-	// 		fmt.Println(tdMatch)
-	// 	}
-	//
-	// 	fmt.Println("===")
-	// }
-	//
 	n, err := html.Parse(bytes.NewReader(b))
 	if err != nil {
 		t.Fatal(err)
@@ -58,17 +46,33 @@ func TestExtractRows(t *testing.T) {
 	var f func(*html.Node)
 
 	row := 0
+	currentRowHeader := ""
+	quarterIdx := -1
+	bs := &BalanceSheet{}
 	f = func(n *html.Node) {
 		if n.Type == html.ElementNode && n.Data == "tr" {
 			row++
 			fmt.Println("============= row", row, "=============")
+			quarterIdx = -1
 		}
 		if n.Type == html.TextNode && strings.TrimSpace(n.Data) != "" {
 			fmt.Println(n.Data)
+			if quarterIdx == -1 {
+				currentRowHeader = n.Data
+			} else {
+				if row == 1 {
+					bs.AddQuarter(n.Data)
+				}
+
+				bs.SetQuarterInfo(quarterIdx, currentRowHeader, n.Data)
+			}
+			quarterIdx++
 		}
 		for c := n.FirstChild; c != nil; c = c.NextSibling {
 			f(c)
 		}
 	}
 	f(n)
+
+	fmt.Printf("%#v\n", bs)
 }
