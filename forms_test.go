@@ -18,7 +18,10 @@ func Test1(t *testing.T) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	idx.parseEntries(f)
+	err = idx.parseEntries(f)
+	if err != nil {
+		t.Fatal(err)
+	}
 }
 
 func TestFilenameToFormURL(t *testing.T) {

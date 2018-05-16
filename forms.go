@@ -3,9 +3,7 @@ package edgar
 import (
 	"bufio"
 	"io"
-	"log"
 	"path"
-	"regexp"
 	"strconv"
 	"strings"
 )
@@ -26,7 +24,6 @@ type IndexEntry struct {
 }
 
 func (idx *FormsIndex) parseEntries(r io.Reader) error {
-	multipleSpaceRegexp := regexp.MustCompile(`\s\s+`)
 	br := bufio.NewReader(r)
 	line, err := br.ReadString('\n')
 
@@ -41,14 +38,21 @@ func (idx *FormsIndex) parseEntries(r io.Reader) error {
 			continue
 		}
 
-		parts := strings.Split(multipleSpaceRegexp.ReplaceAllString(strings.TrimSpace(line), "\x00"), "\x00")
+		line = strings.TrimSpace(line)
+		//  0 = type
+		// 12 = company name
+		// 74 = CIK
+		// 86 = date filed
+		// 98 = file name
+		parts := []string{
+			line[:12],
+			line[12:74],
+			line[74:86],
+			line[86:98],
+			line[98:],
+		}
 		for i := range parts {
 			parts[i] = strings.TrimSpace(parts[i])
-		}
-
-		if len(parts) != 5 {
-			log.Println(line)
-			continue
 		}
 
 		entry := IndexEntry{}
