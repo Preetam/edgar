@@ -2,7 +2,10 @@ package edgar
 
 import (
 	"bufio"
+	"encoding/xml"
+	"errors"
 	"io"
+	"net/http"
 	"path"
 	"strconv"
 	"strings"
@@ -12,7 +15,7 @@ type FormsIndex struct {
 	year    int
 	quarter int
 
-	entries []IndexEntry
+	Entries []IndexEntry
 }
 
 type IndexEntry struct {
@@ -66,9 +69,51 @@ func (idx *FormsIndex) parseEntries(r io.Reader) error {
 		entry.DateFiled = parts[3]
 		entry.FileName = parts[4]
 
-		idx.entries = append(idx.entries, entry)
+		idx.Entries = append(idx.Entries, entry)
 	}
 	return nil
+}
+
+func (entry IndexEntry) Get10QBalanceSheet() (*BalanceSheet, error) {
+	if entry.FormType != "10-Q" {
+		return nil, errors.New("edgar: form type is not 10-Q")
+	}
+	summaryURL := filenameToFormURL(entry.FileName, "FilingSummary.xml")
+	resp, err := http.Get(summaryURL)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+	filingSummary := &FilingSummary{}
+	d := xml.NewDecoder(resp.Body)
+	err = d.Decode(filingSummary)
+	if err != nil {
+		return nil, err
+	}
+	balanceSheetHTMLFile := ""
+	for _, r := range filingSummary.Reports {
+		if r.ShortName == "Condensed Consolidated Balance Sheets" ||
+			r.ShortName == "CONSOLIDATED BALANCE SHEETS" ||
+			r.ShortName == "Consolidated Balance Sheets" {
+			balanceSheetHTMLFile = r.HTMLFileName
+			break
+		}
+	}
+	if balanceSheetHTMLFile == "" {
+		return nil, errors.New("edgar: could not find balance sheet file")
+	}
+	balanceSheetURL := filenameToFormURL(entry.FileName, balanceSheetHTMLFile)
+	balanceSheetResp, err := http.Get(balanceSheetURL)
+	if err != nil {
+		return nil, err
+	}
+	defer balanceSheetResp.Body.Close()
+	bs, err := ParseBalanceSheetHTML(balanceSheetResp.Body)
+	if err != nil {
+		return nil, err
+	}
+	bs.url = balanceSheetURL
+	return bs, nil
 }
 
 func filenameToFormURL(filename string, file string) string {

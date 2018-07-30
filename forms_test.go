@@ -2,14 +2,13 @@ package edgar
 
 import (
 	"bytes"
+	"encoding/xml"
 	"fmt"
 	"io/ioutil"
 	"log"
 	"os"
-	"strings"
 	"testing"
-
-	"golang.org/x/net/html"
+	"time"
 )
 
 func Test1(t *testing.T) {
@@ -22,10 +21,35 @@ func Test1(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
+	for _, e := range idx.Entries {
+		fmt.Println(e)
+		if e.FormType != "10-Q" {
+			continue
+		}
+		bs, err := e.Get10QBalanceSheet()
+		if err != nil {
+			t.Log(e)
+			continue
+		}
+		fmt.Printf("%#v\n", bs)
+		//t.Log(e, filenameToFormURL(e.FileName, "R2.htm"))
+		//t.Log(e, filenameToFormURL(e.FileName, "FilingSummary.xml"))
+		time.Sleep(time.Second)
+	}
+}
 
-	// for _, e := range idx.entries {
-	// 	fmt.Println(e, filenameToFormURL(e.FileName, "R2.htm"))
-	// }
+func Test2(t *testing.T) {
+	f, err := os.Open("./FilingSummary.xml")
+	if err != nil {
+		log.Fatal(err)
+	}
+	filingSummary := &FilingSummary{}
+	d := xml.NewDecoder(f)
+	err = d.Decode(filingSummary)
+	if err != nil {
+		log.Fatal(err)
+	}
+	t.Log(filingSummary)
 }
 
 func TestFilenameToFormURL(t *testing.T) {
@@ -37,42 +61,9 @@ func TestExtractRows(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-
-	n, err := html.Parse(bytes.NewReader(b))
+	bs, err := ParseBalanceSheetHTML(bytes.NewReader(b))
 	if err != nil {
 		t.Fatal(err)
 	}
-
-	var f func(*html.Node)
-
-	row := 0
-	currentRowHeader := ""
-	quarterIdx := -1
-	bs := &BalanceSheet{}
-	f = func(n *html.Node) {
-		if n.Type == html.ElementNode && n.Data == "tr" {
-			row++
-			fmt.Println("============= row", row, "=============")
-			quarterIdx = -1
-		}
-		if n.Type == html.TextNode && strings.TrimSpace(n.Data) != "" {
-			fmt.Println(n.Data)
-			if quarterIdx == -1 {
-				currentRowHeader = n.Data
-			} else {
-				if row == 1 {
-					bs.AddQuarter(n.Data)
-				}
-
-				bs.SetQuarterInfo(quarterIdx, currentRowHeader, n.Data)
-			}
-			quarterIdx++
-		}
-		for c := n.FirstChild; c != nil; c = c.NextSibling {
-			f(c)
-		}
-	}
-	f(n)
-
-	fmt.Printf("%#v\n", bs)
+	log.Println(bs)
 }

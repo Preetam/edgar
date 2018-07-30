@@ -1,0 +1,927 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FilingSummary>
+  <Version>3.10.0.1</Version>
+  <ProcessingTime/>
+  <ReportFormat>html</ReportFormat>
+  <ContextCount>583</ContextCount>
+  <ElementCount>345</ElementCount>
+  <EntityCount>1</EntityCount>
+  <FootnotesReported>true</FootnotesReported>
+  <SegmentCount>131</SegmentCount>
+  <ScenarioCount>0</ScenarioCount>
+  <TuplesReported>false</TuplesReported>
+  <UnitCount>15</UnitCount>
+  <MyReports>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R1.htm</HtmlFileName>
+      <LongName>0001000 - Document - Document and Entity Information</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/DocumentAndEntityInformation</Role>
+      <ShortName>Document and Entity Information</ShortName>
+      <MenuCategory>Cover</MenuCategory>
+      <Position>1</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R2.htm</HtmlFileName>
+      <LongName>1001000 - Statement - Condensed Consolidated Statements of Earnings</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/CondensedConsolidatedStatementsOfEarnings</Role>
+      <ShortName>Condensed Consolidated Statements of Earnings</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>2</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R3.htm</HtmlFileName>
+      <LongName>1002000 - Statement - Condensed Consolidated Statements of Comprehensive Earnings</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/CondensedConsolidatedStatementsOfComprehensiveEarnings</Role>
+      <ShortName>Condensed Consolidated Statements of Comprehensive Earnings</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>3</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R4.htm</HtmlFileName>
+      <LongName>1003000 - Statement - Condensed Consolidated Balance Sheets</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/CondensedConsolidatedBalanceSheets</Role>
+      <ShortName>Condensed Consolidated Balance Sheets</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>4</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R5.htm</HtmlFileName>
+      <LongName>1003501 - Statement - Condensed Consolidated Balance Sheets (Parenthetical)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/CondensedConsolidatedBalanceSheetsParenthetical</Role>
+      <ShortName>Condensed Consolidated Balance Sheets (Parenthetical)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>5</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R6.htm</HtmlFileName>
+      <LongName>1004000 - Statement - Condensed Consolidated Statements of Equity</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/CondensedConsolidatedStatementsOfEquity</Role>
+      <ShortName>Condensed Consolidated Statements of Equity</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>6</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R7.htm</HtmlFileName>
+      <LongName>1004501 - Statement - Condensed Consolidated Statements of Equity (Parenthetical)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/CondensedConsolidatedStatementsOfEquityParenthetical</Role>
+      <ShortName>Condensed Consolidated Statements of Equity (Parenthetical)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>7</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R8.htm</HtmlFileName>
+      <LongName>1005000 - Statement - Condensed Consolidated Statements of Cash Flows</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/CondensedConsolidatedStatementsOfCashFlows</Role>
+      <ShortName>Condensed Consolidated Statements of Cash Flows</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>8</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R9.htm</HtmlFileName>
+      <LongName>2101100 - Disclosure - Basis of Presentation</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/BasisOfPresentation</Role>
+      <ShortName>Basis of Presentation</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>9</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R10.htm</HtmlFileName>
+      <LongName>2102100 - Disclosure - Divestitures and Acquisitions</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/DivestituresAndAcquisitions</Role>
+      <ShortName>Divestitures and Acquisitions</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>10</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R11.htm</HtmlFileName>
+      <LongName>2103100 - Disclosure - Inventories</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/Inventories</Role>
+      <ShortName>Inventories</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>11</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R12.htm</HtmlFileName>
+      <LongName>2104100 - Disclosure - Property, Plant and Equipment</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/PropertyPlantAndEquipment</Role>
+      <ShortName>Property, Plant and Equipment</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>12</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R13.htm</HtmlFileName>
+      <LongName>2105100 - Disclosure - Goodwill and Intangible Assets</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/GoodwillAndIntangibleAssets</Role>
+      <ShortName>Goodwill and Intangible Assets</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>13</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R14.htm</HtmlFileName>
+      <LongName>2106100 - Disclosure - Equity Method Investments</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/EquityMethodInvestments</Role>
+      <ShortName>Equity Method Investments</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>14</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R15.htm</HtmlFileName>
+      <LongName>2107100 - Disclosure - 2014-2018 Restructuring Program</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/A20142018RestructuringProgram</Role>
+      <ShortName>2014-2018 Restructuring Program</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>15</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R16.htm</HtmlFileName>
+      <LongName>2108100 - Disclosure - Debt and Borrowing Arrangements</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/DebtAndBorrowingArrangements</Role>
+      <ShortName>Debt and Borrowing Arrangements</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>16</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R17.htm</HtmlFileName>
+      <LongName>2109100 - Disclosure - Financial Instruments</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/FinancialInstruments</Role>
+      <ShortName>Financial Instruments</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>17</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R18.htm</HtmlFileName>
+      <LongName>2110100 - Disclosure - Benefit Plans</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/BenefitPlans</Role>
+      <ShortName>Benefit Plans</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>18</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R19.htm</HtmlFileName>
+      <LongName>2111100 - Disclosure - Stock Plans</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/StockPlans</Role>
+      <ShortName>Stock Plans</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>19</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R20.htm</HtmlFileName>
+      <LongName>2112100 - Disclosure - Commitments and Contingencies</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/CommitmentsAndContingencies</Role>
+      <ShortName>Commitments and Contingencies</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>20</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R21.htm</HtmlFileName>
+      <LongName>2113100 - Disclosure - Reclassifications from Accumulated Other Comprehensive Income</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/ReclassificationsFromAccumulatedOtherComprehensiveIncome</Role>
+      <ShortName>Reclassifications from Accumulated Other Comprehensive Income</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>21</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R22.htm</HtmlFileName>
+      <LongName>2114100 - Disclosure - Income Taxes</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/IncomeTaxes</Role>
+      <ShortName>Income Taxes</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>22</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R23.htm</HtmlFileName>
+      <LongName>2115100 - Disclosure - Earnings per Share</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/EarningsPerShare</Role>
+      <ShortName>Earnings per Share</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>23</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R24.htm</HtmlFileName>
+      <LongName>2116100 - Disclosure - Segment Reporting</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/SegmentReporting</Role>
+      <ShortName>Segment Reporting</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>24</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R25.htm</HtmlFileName>
+      <LongName>2201201 - Disclosure - Basis of Presentation (Policies)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/BasisOfPresentationPolicies</Role>
+      <ShortName>Basis of Presentation (Policies)</ShortName>
+      <MenuCategory>Policies</MenuCategory>
+      <Position>25</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R26.htm</HtmlFileName>
+      <LongName>2303301 - Disclosure - Inventories (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/InventoriesTables</Role>
+      <ShortName>Inventories (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/Inventories</ParentRole>
+      <Position>26</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R27.htm</HtmlFileName>
+      <LongName>2304301 - Disclosure - Property, Plant and Equipment (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/PropertyPlantAndEquipmentTables</Role>
+      <ShortName>Property, Plant and Equipment (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/PropertyPlantAndEquipment</ParentRole>
+      <Position>27</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R28.htm</HtmlFileName>
+      <LongName>2305301 - Disclosure - Goodwill and Intangible Assets (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/GoodwillAndIntangibleAssetsTables</Role>
+      <ShortName>Goodwill and Intangible Assets (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/GoodwillAndIntangibleAssets</ParentRole>
+      <Position>28</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R29.htm</HtmlFileName>
+      <LongName>2307301 - Disclosure - 2014-2018 Restructuring Program (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/A20142018RestructuringProgramTables</Role>
+      <ShortName>2014-2018 Restructuring Program (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/A20142018RestructuringProgram</ParentRole>
+      <Position>29</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R30.htm</HtmlFileName>
+      <LongName>2308301 - Disclosure - Debt and Borrowing Arrangements (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/DebtAndBorrowingArrangementsTables</Role>
+      <ShortName>Debt and Borrowing Arrangements (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/DebtAndBorrowingArrangements</ParentRole>
+      <Position>30</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R31.htm</HtmlFileName>
+      <LongName>2309301 - Disclosure - Financial Instruments (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/FinancialInstrumentsTables</Role>
+      <ShortName>Financial Instruments (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/FinancialInstruments</ParentRole>
+      <Position>31</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R32.htm</HtmlFileName>
+      <LongName>2310301 - Disclosure - Benefit Plans (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/BenefitPlansTables</Role>
+      <ShortName>Benefit Plans (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/BenefitPlans</ParentRole>
+      <Position>32</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R33.htm</HtmlFileName>
+      <LongName>2311301 - Disclosure - Stock Plans (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/StockPlansTables</Role>
+      <ShortName>Stock Plans (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/StockPlans</ParentRole>
+      <Position>33</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R34.htm</HtmlFileName>
+      <LongName>2313301 - Disclosure - Reclassifications from Accumulated Other Comprehensive Income (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/ReclassificationsFromAccumulatedOtherComprehensiveIncomeTables</Role>
+      <ShortName>Reclassifications from Accumulated Other Comprehensive Income (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/ReclassificationsFromAccumulatedOtherComprehensiveIncome</ParentRole>
+      <Position>34</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R35.htm</HtmlFileName>
+      <LongName>2315301 - Disclosure - Earnings per Share (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/EarningsPerShareTables</Role>
+      <ShortName>Earnings per Share (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/EarningsPerShare</ParentRole>
+      <Position>35</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R36.htm</HtmlFileName>
+      <LongName>2316301 - Disclosure - Segment Reporting (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/SegmentReportingTables</Role>
+      <ShortName>Segment Reporting (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/SegmentReporting</ParentRole>
+      <Position>36</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R37.htm</HtmlFileName>
+      <LongName>2401402 - Disclosure - Basis of Presentation (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/BasisOfPresentationDetails</Role>
+      <ShortName>Basis of Presentation (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/BasisOfPresentationPolicies</ParentRole>
+      <Position>37</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R38.htm</HtmlFileName>
+      <LongName>2402401 - Disclosure - Divestitures and Acquisitions - Acquisitions (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/DivestituresAndAcquisitionsAcquisitionsDetails</Role>
+      <ShortName>Divestitures and Acquisitions - Acquisitions (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>38</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R39.htm</HtmlFileName>
+      <LongName>2402402 - Disclosure - Divestitures and Acquisitions - Divestitures (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/DivestituresAndAcquisitionsDivestituresDetails</Role>
+      <ShortName>Divestitures and Acquisitions - Divestitures (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>39</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R40.htm</HtmlFileName>
+      <LongName>2403402 - Disclosure - Inventories (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/InventoriesDetails</Role>
+      <ShortName>Inventories (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/InventoriesTables</ParentRole>
+      <Position>40</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R41.htm</HtmlFileName>
+      <LongName>2404402 - Disclosure - Property, Plant and Equipment (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/PropertyPlantAndEquipmentDetails</Role>
+      <ShortName>Property, Plant and Equipment (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/PropertyPlantAndEquipmentTables</ParentRole>
+      <Position>41</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R42.htm</HtmlFileName>
+      <LongName>2404403 - Disclosure - Property, Plant and Equipment - Additional Information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/PropertyPlantAndEquipmentAdditionalInformationDetails</Role>
+      <ShortName>Property, Plant and Equipment - Additional Information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>42</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R43.htm</HtmlFileName>
+      <LongName>2404404 - Disclosure - Property, Plant and Equipment - Asset Impairment and Exit Costs (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/PropertyPlantAndEquipmentAssetImpairmentAndExitCostsDetails</Role>
+      <ShortName>Property, Plant and Equipment - Asset Impairment and Exit Costs (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>43</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R44.htm</HtmlFileName>
+      <LongName>2405402 - Disclosure - Goodwill and Intangible Assets - Goodwill by Segment (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/GoodwillAndIntangibleAssetsGoodwillBySegmentDetails</Role>
+      <ShortName>Goodwill and Intangible Assets - Goodwill by Segment (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>44</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R45.htm</HtmlFileName>
+      <LongName>2405403 - Disclosure - Goodwill and Intangible Assets - Intangible Assets (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/GoodwillAndIntangibleAssetsIntangibleAssetsDetails</Role>
+      <ShortName>Goodwill and Intangible Assets - Intangible Assets (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>45</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R46.htm</HtmlFileName>
+      <LongName>2405404 - Disclosure - Goodwill and Intangible Assets - Additional Information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/GoodwillAndIntangibleAssetsAdditionalInformationDetails</Role>
+      <ShortName>Goodwill and Intangible Assets - Additional Information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>46</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R47.htm</HtmlFileName>
+      <LongName>2405405 - Disclosure - Goodwill and Intangible Assets - Changes in Goodwill and Intangible Assets (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/GoodwillAndIntangibleAssetsChangesInGoodwillAndIntangibleAssetsDetails</Role>
+      <ShortName>Goodwill and Intangible Assets - Changes in Goodwill and Intangible Assets (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>47</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R48.htm</HtmlFileName>
+      <LongName>2406401 - Disclosure - Equity Method Investments (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/EquityMethodInvestmentsDetails</Role>
+      <ShortName>Equity Method Investments (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/EquityMethodInvestments</ParentRole>
+      <Position>48</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R49.htm</HtmlFileName>
+      <LongName>2407402 - Disclosure - 2014-2018 Restructuring Program - Additional Information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/A20142018RestructuringProgramAdditionalInformationDetails</Role>
+      <ShortName>2014-2018 Restructuring Program - Additional Information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>49</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R50.htm</HtmlFileName>
+      <LongName>2407403 - Disclosure - 2014-2018 Restructuring Program - Restructuring Liability Activity (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/A20142018RestructuringProgramRestructuringLiabilityActivityDetails</Role>
+      <ShortName>2014-2018 Restructuring Program - Restructuring Liability Activity (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>50</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R51.htm</HtmlFileName>
+      <LongName>2407404 - Disclosure - 2014-2018 Restructuring Program - Restructuring and Implementation Costs by Segments (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/A20142018RestructuringProgramRestructuringAndImplementationCostsBySegmentsDetails</Role>
+      <ShortName>2014-2018 Restructuring Program - Restructuring and Implementation Costs by Segments (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>51</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R52.htm</HtmlFileName>
+      <LongName>2408402 - Disclosure - Debt and Borrowing Arrangements - Short-Term Borrowings and Related Weighted-Average Interest Rates (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/DebtAndBorrowingArrangementsShortTermBorrowingsAndRelatedWeightedAverageInterestRatesDetails</Role>
+      <ShortName>Debt and Borrowing Arrangements - Short-Term Borrowings and Related Weighted-Average Interest Rates (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>52</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R53.htm</HtmlFileName>
+      <LongName>2408403 - Disclosure - Debt and Borrowing Arrangements - Additional Information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/DebtAndBorrowingArrangementsAdditionalInformationDetails</Role>
+      <ShortName>Debt and Borrowing Arrangements - Additional Information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>53</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R54.htm</HtmlFileName>
+      <LongName>2408404 - Disclosure - Debt and Borrowing Arrangements - Interest and Other Expense (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/DebtAndBorrowingArrangementsInterestAndOtherExpenseDetails</Role>
+      <ShortName>Debt and Borrowing Arrangements - Interest and Other Expense (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>54</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R55.htm</HtmlFileName>
+      <LongName>2409402 - Disclosure - Financial Instruments - Fair Value of Derivative Instruments (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/FinancialInstrumentsFairValueOfDerivativeInstrumentsDetails</Role>
+      <ShortName>Financial Instruments - Fair Value of Derivative Instruments (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>55</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R56.htm</HtmlFileName>
+      <LongName>2409403 - Disclosure - Financial Instruments - Derivative Instruments Fair Value and Measurement Inputs (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/FinancialInstrumentsDerivativeInstrumentsFairValueAndMeasurementInputsDetails</Role>
+      <ShortName>Financial Instruments - Derivative Instruments Fair Value and Measurement Inputs (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>56</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R57.htm</HtmlFileName>
+      <LongName>2409404 - Disclosure - Financial Instruments - Additional Information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/FinancialInstrumentsAdditionalInformationDetails</Role>
+      <ShortName>Financial Instruments - Additional Information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>57</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R58.htm</HtmlFileName>
+      <LongName>2409405 - Disclosure - Financial Instruments - Notional Values of Hedging Instruments (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/FinancialInstrumentsNotionalValuesOfHedgingInstrumentsDetails</Role>
+      <ShortName>Financial Instruments - Notional Values of Hedging Instruments (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>58</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R59.htm</HtmlFileName>
+      <LongName>2409406 - Disclosure - Financial Instruments - Cash Flow Hedges Effect on Accumulated Other Comprehensive Earnings/(Losses), Net of Tax (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/FinancialInstrumentsCashFlowHedgesEffectOnAccumulatedOtherComprehensiveEarningsLossesNetOfTaxDetails</Role>
+      <ShortName>Financial Instruments - Cash Flow Hedges Effect on Accumulated Other Comprehensive Earnings/(Losses), Net of Tax (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>59</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R60.htm</HtmlFileName>
+      <LongName>2409407 - Disclosure - Financial Instruments - Cash Flow Hedges After-tax Gains/(Losses) (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/FinancialInstrumentsCashFlowHedgesAfterTaxGainsLossesDetails</Role>
+      <ShortName>Financial Instruments - Cash Flow Hedges After-tax Gains/(Losses) (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>60</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R61.htm</HtmlFileName>
+      <LongName>2409408 - Disclosure - Financial Instruments - Fair Value Hedges (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/FinancialInstrumentsFairValueHedgesDetails</Role>
+      <ShortName>Financial Instruments - Fair Value Hedges (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>61</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R62.htm</HtmlFileName>
+      <LongName>2409409 - Disclosure - Financial Instruments - Carrying Amount of Hedged Fixed Interest Rate Debt (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/FinancialInstrumentsCarryingAmountOfHedgedFixedInterestRateDebtDetails</Role>
+      <ShortName>Financial Instruments - Carrying Amount of Hedged Fixed Interest Rate Debt (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>62</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R63.htm</HtmlFileName>
+      <LongName>2409410 - Disclosure - Financial Instruments - Hedges of Net Investments in International Operations (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/FinancialInstrumentsHedgesOfNetInvestmentsInInternationalOperationsDetails</Role>
+      <ShortName>Financial Instruments - Hedges of Net Investments in International Operations (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>63</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R64.htm</HtmlFileName>
+      <LongName>2409411 - Disclosure - Financial Instruments - Economic Hedges (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/FinancialInstrumentsEconomicHedgesDetails</Role>
+      <ShortName>Financial Instruments - Economic Hedges (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>64</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R65.htm</HtmlFileName>
+      <LongName>2410402 - Disclosure - Benefit Plans - Pension Costs (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/BenefitPlansPensionCostsDetails</Role>
+      <ShortName>Benefit Plans - Pension Costs (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>65</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R66.htm</HtmlFileName>
+      <LongName>2410403 - Disclosure - Benefit Plans - Additional Information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/BenefitPlansAdditionalInformationDetails</Role>
+      <ShortName>Benefit Plans - Additional Information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>66</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R67.htm</HtmlFileName>
+      <LongName>2410404 - Disclosure - Benefit Plans - Postretirement Health Care Costs (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/BenefitPlansPostretirementHealthCareCostsDetails</Role>
+      <ShortName>Benefit Plans - Postretirement Health Care Costs (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>67</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R68.htm</HtmlFileName>
+      <LongName>2410405 - Disclosure - Benefit Plans - Postemployment Benefit Costs (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/BenefitPlansPostemploymentBenefitCostsDetails</Role>
+      <ShortName>Benefit Plans - Postemployment Benefit Costs (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>68</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R69.htm</HtmlFileName>
+      <LongName>2411402 - Disclosure - Stock Plans - Stock Option Activity (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/StockPlansStockOptionActivityDetails</Role>
+      <ShortName>Stock Plans - Stock Option Activity (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>69</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R70.htm</HtmlFileName>
+      <LongName>2411403 - Disclosure - Stock Plans - Performance Share Units and Other Stock-Based Awards Activity (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/StockPlansPerformanceShareUnitsAndOtherStockBasedAwardsActivityDetails</Role>
+      <ShortName>Stock Plans - Performance Share Units and Other Stock-Based Awards Activity (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>70</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R71.htm</HtmlFileName>
+      <LongName>2411404 - Disclosure - Stock Plans - Share Repurchase Program (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/StockPlansShareRepurchaseProgramDetails</Role>
+      <ShortName>Stock Plans - Share Repurchase Program (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>71</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R72.htm</HtmlFileName>
+      <LongName>2412401 - Disclosure - Commitments and Contingencies (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/CommitmentsAndContingenciesDetails</Role>
+      <ShortName>Commitments and Contingencies (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/CommitmentsAndContingencies</ParentRole>
+      <Position>72</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R73.htm</HtmlFileName>
+      <LongName>2413402 - Disclosure - Reclassifications from Accumulated Other Comprehensive Income - Additional Information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/ReclassificationsFromAccumulatedOtherComprehensiveIncomeAdditionalInformationDetails</Role>
+      <ShortName>Reclassifications from Accumulated Other Comprehensive Income - Additional Information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>73</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R74.htm</HtmlFileName>
+      <LongName>2413403 - Disclosure - Reclassifications from Accumulated Other Comprehensive Income - Changes in Accumulated Other Comprehensive Earnings/(Losses) (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/ReclassificationsFromAccumulatedOtherComprehensiveIncomeChangesInAccumulatedOtherComprehensiveEarningsLossesDetails</Role>
+      <ShortName>Reclassifications from Accumulated Other Comprehensive Income - Changes in Accumulated Other Comprehensive Earnings/(Losses) (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>74</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R75.htm</HtmlFileName>
+      <LongName>2414401 - Disclosure - Income Taxes (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/IncomeTaxesDetails</Role>
+      <ShortName>Income Taxes (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/IncomeTaxes</ParentRole>
+      <Position>75</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R76.htm</HtmlFileName>
+      <LongName>2415402 - Disclosure - Earnings per Share (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/EarningsPerShareDetails</Role>
+      <ShortName>Earnings per Share (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://mondelezinternational.com/role/EarningsPerShareTables</ParentRole>
+      <Position>76</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R77.htm</HtmlFileName>
+      <LongName>2415403 - Disclosure - Earnings per Share - Additional Information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/EarningsPerShareAdditionalInformationDetails</Role>
+      <ShortName>Earnings per Share - Additional Information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>77</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R78.htm</HtmlFileName>
+      <LongName>2416402 - Disclosure - Segment Reporting - Net Revenues and Earnings (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/SegmentReportingNetRevenuesAndEarningsDetails</Role>
+      <ShortName>Segment Reporting - Net Revenues and Earnings (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>78</Position>
+    </Report>
+    <Report instance="mdlz-20180630.xml">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R79.htm</HtmlFileName>
+      <LongName>2416403 - Disclosure - Segment Reporting - Net Revenues by Product Category (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://mondelezinternational.com/role/SegmentReportingNetRevenuesByProductCategoryDetails</Role>
+      <ShortName>Segment Reporting - Net Revenues by Product Category (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>79</Position>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>All Reports</LongName>
+      <ReportType>Book</ReportType>
+      <ShortName>All Reports</ShortName>
+    </Report>
+  </MyReports>
+  <InputFiles>
+    <File>mdlz-20180630.xml</File>
+    <File>mdlz-20180630.xsd</File>
+    <File>mdlz-20180630_cal.xml</File>
+    <File>mdlz-20180630_def.xml</File>
+    <File>mdlz-20180630_lab.xml</File>
+    <File>mdlz-20180630_pre.xml</File>
+  </InputFiles>
+  <SupplementalFiles/>
+  <BaseTaxonomies>
+    <BaseTaxonomy>http://fasb.org/us-gaap/2017-01-31</BaseTaxonomy>
+    <BaseTaxonomy>http://xbrl.sec.gov/dei/2014-01-31</BaseTaxonomy>
+    <BaseTaxonomy>http://xbrl.sec.gov/country/2017-01-31</BaseTaxonomy>
+    <BaseTaxonomy>http://xbrl.sec.gov/invest/2013-01-31</BaseTaxonomy>
+  </BaseTaxonomies>
+  <HasPresentationLinkbase>true</HasPresentationLinkbase>
+  <HasCalculationLinkbase>true</HasCalculationLinkbase>
+</FilingSummary>
